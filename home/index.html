@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baños ITT</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="script" href="../static/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../static/assets/img/Logo_TecNM.svg" alt="logo tecnm"></img>
+        </div>
+        <div class="title">
+            <h1>Baños ITT</h1>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <div class="map-dashboard">
+            <div id="map"></div>
+            <div id="dashboard" class="table-responsive">
+                <h2 id="title">Disponibilidad de baños ITT</h2>
+                <h3 id="title">Unidad Tomas Aquino</h3>
+                <div id="filter">
+                    <button>Todos</button>
+                    <button>Disponibles</button>
+                    <button>Fuera de Servicio</button>
+                </div>
+                <table class="area table" id="sistemas">
+                    <thead class="table-light">
+                        <tr>
+                            <td>Area de Sistemas</td>
+                            <td>Estatus</td>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Damas Piso 1
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Caballeros Piso 1
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Discapacitados Piso 1
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Damas Piso 3
+                            </td>
+                            <td><p>Fuera de Servicio</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Caballeros Piso 3
+                            </td>
+                            <td><p>Fuera de Servicio</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="area table" id="industrial">
+                    <thead class="table-light">
+                        <tr>
+                            <td>Area de Industrial</td>
+                            <td>Estatus</td>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Damas
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Caballeros
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="area table" id="teatro-calafornix">
+                    <thead class="table-light">
+                        <tr>
+                            <td>Area de Teatro Calafornix</td>
+                            <td>Estatus</td>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Damas
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="" alt="">
+                                Baño de Caballeros
+                            </td>
+                            <td><p>Disponible</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../static/js/map.js"></script>
