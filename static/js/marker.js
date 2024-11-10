@@ -1,13 +1,19 @@
+
+
+
+
 //Calafornix
 L.marker([32.53081034175626, -116.98782494136576], {icon: DamaDIcon}).addTo(map).bindPopup("I am a green leaf.");
-L.marker([32.53067305384125, -116.98791486598085], {icon: CaballeroDIcon}).addTo(map).bindPopup("I am a green leaf.");
+L.marker([32.53067305384125, -116.98791486598085], {icon: CaballeroFSIcon}).addTo(map).bindPopup("I am a green leaf.");
+
+
 
 //100 (Industrial)
 L.marker([32.52972242172212, -116.98813985096356], {icon: DamaFSIcon}).addTo(map).bindPopup("I am a green leaf.");
 L.marker([32.52974226894252, -116.9881888935009], {icon: CaballeroFSIcon}).addTo(map).bindPopup("I am a green leaf.");
 
 //Cafeteria
-L.marker([32.52895124727684, -116.98819390331462], {icon: UnisexDIcon}).addTo(map).bindPopup("I am a green leaf.");
+L.marker([32.52895124727684, -116.98819390331462], {icon: UnisexDIcon}).addTo(map).bindPopup("I am a green leaf.");/////////////////
 
 //Edificio Academico
 L.marker([32.52945160261507, -116.9872887856129], {icon: DamaFSIcon}).addTo(map).bindPopup("Piso 1");
