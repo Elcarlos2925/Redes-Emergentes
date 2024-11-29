@@ -28,5 +28,5 @@ var markerCaballerosEelectromecanica = L.marker([32.530147146661946, -116.987083
 //AEREONAUTICA 600
 var markerDamasAereonauticap1 = L.marker([32.53127455621366, -116.98593257235066], {icon: DamaDIcon}).addTo(map).bindPopup("Piso 1");
 var markerCaballerosAereonauticap1 = L.marker([32.5312817147121, -116.98604436666287], {icon: CaballeroDIcon}).addTo(map).bindPopup("Piso 1");
-var markerDamasAereonauticap2 = L.marker([32.53119104035642, -116.98593681770429], {icon: DamaDIcon}).addTo(map).bindPopup("Piso 1");
-var markerCaballerosAereonauticap2 = L.marker([32.531194619609046, -116.98606134807738], {icon: CaballeroDIcon}).addTo(map).bindPopup("Piso 1");
+var markerDamasAereonauticap2 = L.marker([32.53119104035642, -116.98593681770429], {icon: DamaDIcon}).addTo(map).bindPopup("Piso 2");
+var markerCaballerosAereonauticap2 = L.marker([32.531194619609046, -116.98606134807738], {icon: CaballeroDIcon}).addTo(map).bindPopup("Piso 2");
